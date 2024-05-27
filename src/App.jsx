@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Routes>
+        <Route path="/ftn-webapp/" element={<Login />} />
         <Route path="/ftn-webapp/login" element={<Login />} />
         <Route path="/ftn-webapp/registration" element={<Register />} />
         <Route path='/ftn-webapp/success' element={<SuccessReg />} />
