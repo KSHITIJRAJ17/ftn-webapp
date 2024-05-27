@@ -34,11 +34,11 @@ function Login() {
             <a href="#" className={styles.forgotPasswordLink}>Forgot Password?</a>
           </div>
           <div className={styles.logCss}>
-            <button className={styles.button} onClick={() => (window.location.href = '/home')}>Login</button>
+            <button className={styles.button} onClick={() => (window.location.href = '/ftn-webapp/home')}>Login</button>
           </div>
           <div className={styles.loginT}>
             <h5>Don't have an account?</h5>
-            <h5 style={{color:'#6C63FF', cursor:'pointer' }} onClick={() => (window.location.href = '/registration')}>&nbsp; Register now</h5>
+            <h5 style={{color:'#6C63FF', cursor:'pointer' }} onClick={() => (window.location.href = '/ftn-webapp/registration')}>&nbsp; Register now</h5>
           </div>
           </center>
         </div>

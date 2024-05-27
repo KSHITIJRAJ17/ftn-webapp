@@ -19,7 +19,7 @@ function SucessRegistration() {
             
           </div>
           <div className={styles.logCss}>
-            <button className={styles.button} onClick={() => (window.location.href = '/login')}>Back to Login</button>
+            <button className={styles.button} onClick={() => (window.location.href = '/ftn-webapp/login')}>Back to Login</button>
           </div>
           </center>
         </div>

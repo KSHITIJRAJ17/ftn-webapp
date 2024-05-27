@@ -9,7 +9,7 @@ function Navbar({ activeBtn }) { // Destructure activeBtn from props
                 <center>
                     <img src={flyTheNestLogo} className={styles.ftnLogo} alt="fly the nest logo" />
                     <div className={styles.buttonGrp}>
-                        <button className={`${styles.navBtn} ${activeBtn === 'home' ? styles.active : ''}`} onClick={() => (window.location.href = '/home')}>
+                        <button className={`${styles.navBtn} ${activeBtn === 'home' ? styles.active : ''}`} onClick={() => (window.location.href = '/ftn-webapp/home')}>
                             <span className="material-symbols-outlined">
                                 home
                             </span>
@@ -21,13 +21,13 @@ function Navbar({ activeBtn }) { // Destructure activeBtn from props
                             </span>
                             <p>&nbsp; Mentors</p>
                         </button>
-                        <button className={`${styles.navBtn} ${activeBtn === 'applyLeave' ? styles.active : ''}`} onClick={() => (window.location.href = '/applyleave')}>
+                        <button className={`${styles.navBtn} ${activeBtn === 'applyLeave' ? styles.active : ''}`} onClick={() => (window.location.href = '/ftn-webapp/applyleave')}>
                             <span className="material-symbols-outlined">
                                 free_cancellation
                             </span>
                             <p>&nbsp; Apply Leave</p>
                         </button>
-                        <button className={`${styles.navBtn} ${activeBtn === 'feedback' ? styles.active : ''}`} onClick={() => (window.location.href = '/feedback')}>
+                        <button className={`${styles.navBtn} ${activeBtn === 'feedback' ? styles.active : ''}`} onClick={() => (window.location.href = '/ftn-webapp/feedback')}>
                             <span className="material-symbols-outlined">
                                 feedback
                             </span>

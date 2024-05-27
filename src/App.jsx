@@ -14,12 +14,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/registration" element={<Register />} />
-        <Route path='/success' element={<SuccessReg />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/applyleave" element={<ApplyLeave />} />
-        <Route path="/feedback" element={<FeedbackPage />} />
+        <Route path="/ftn-webapp/login" element={<Login />} />
+        <Route path="/ftn-webapp/registration" element={<Register />} />
+        <Route path='/ftn-webapp/success' element={<SuccessReg />} />
+        <Route path="/ftn-webapp/home" element={<Home />} />
+        <Route path="/ftn-webapp/applyleave" element={<ApplyLeave />} />
+        <Route path="/ftn-webapp/feedback" element={<FeedbackPage />} />
       </Routes>
     </>
   );

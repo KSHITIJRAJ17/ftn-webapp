@@ -41,7 +41,7 @@ function Header({ username, activeBtn }) {
                 <img src={profilePic} className={styles.pic} alt="Profile" onClick={toggleProfileMenu} />
                 {showProfileMenu && (
                 <div className={styles.profileMenu} id="notification-dropdown">
-                  <a onClick={() => (window.location.href = '/login')}>Logout</a>
+                  <a onClick={() => (window.location.href = '/ftn-webapp/login')}>Logout</a>
                   <a>Profile</a>
                   
                 </div>
