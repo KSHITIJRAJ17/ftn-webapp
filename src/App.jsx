@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/ftn-webapp/" element={<Login />} />
         <Route path="/ftn-webapp/login" element={<Login />} />
-        <Route path="/ftn-webapp/#registration" element={<Register />} />
+        <Route path="/ftn-webapp/registration" element={<Register />} />
         <Route path='/ftn-webapp/success' element={<SuccessReg />} />
         <Route path="/ftn-webapp/home" element={<Home />} />
         <Route path="/ftn-webapp/applyleave" element={<ApplyLeave />} />
