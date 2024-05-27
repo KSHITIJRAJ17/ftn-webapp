@@ -1,0 +1,25 @@
+.mainContent{
+    height: 100%;
+    padding-left: 5%; 
+    padding-right: 5%;
+    padding-top: 3%;
+    overflow-y: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+.joinNow{
+    background-color: #8338EC;
+    width: 80%;
+    color: white;
+    height: 40%;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.rightCol{
+  height: 100%;
+}
+
+/* Right Column section */

@@ -1,0 +1,85 @@
+.mainContent{
+  height: 100%;
+  /* padding-left: 5%; 
+  padding-right: 5%;
+  padding-top: 3%; */
+  overflow-y: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+}
+
+.joinNow{
+  background-color: #8338EC;
+  width: 80%;
+  color: white;
+  height: 40%;
+  border-radius: 10px;
+  border-width: 0;
+}
+
+.rightCol{
+height: 100%;
+}
+
+.midcard{
+  background: #ffffff;
+  height: 650px;
+  border-radius: 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease 0;
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 5px;
+}
+ 
+.dropdown-css{
+  border-color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 18px;
+    width: 94%;
+    height: 58px;
+    background: white;
+    border-radius: 10px;
+}
+ 
+.labelcss{
+  width: 100%;
+}
+ 
+.queryinput{
+  box-sizing: border-box;
+  margin-left: 18px;
+    width: 94%;
+    height: 78px;
+   
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+}
+ 
+.questioncss{
+  padding-top: 22px;
+    margin-left: 18px;
+}
+ 
+.Buttoncss{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+    margin-top: 2rem;
+}
+ 
+.cancelcss{
+  padding:7px 32px 8px 36px;
+  margin-right: 35px;
+    background: #E0E0E0;
+    border-radius: 10px;
+    border-color: #E0E0E0 ;
+}
+.submitcss{
+  background: #6C63FF;
+  border-color: #6C63FF;
+    border-radius: 10px;
+    padding: 7px 32px 8px 36px;
+}

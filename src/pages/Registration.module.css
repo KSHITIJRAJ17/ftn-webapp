@@ -1,0 +1,92 @@
+.containerCss {
+    width: 100%;
+    display: flex;
+  }
+  
+  .login {
+    width: 100%;
+  }
+  
+  .imgCss {
+    /* margin-left: 28%; */
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loginT {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input {
+    border-radius: 5px;
+    width: 65%;
+    /* margin-left: 8%; */
+    border-color: #80808061;
+    min-height: 30px;
+    height: 7vh;
+    margin-bottom: 2%;
+  }
+  
+  .passwordContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .passwordContainer .input {
+    flex: 1;
+  }
+  
+  .forgotPasswordContainer {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20%;
+  }
+  
+  .forgotPasswordLink {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .forgotPasswordLink:hover {
+    text-decoration: underline;
+  }
+  
+  .button {
+    width: 16%;
+    padding: 10px 20px;
+    background-color: #6C63FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 0;
+    border-width: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* .buttonText {
+    color: #fff;
+    font-size: 2.5rem;
+    
+  } */
+  
+  .imgSet {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logCss {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+  }
+  

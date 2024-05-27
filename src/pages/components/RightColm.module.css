@@ -1,0 +1,242 @@
+.react-calendar {
+  width: 90%;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #a0a096;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+
+.react-calendar--doubleView {
+  width: 700px;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer>* {
+  width: 50%;
+  margin: 0.5em;
+}
+
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+}
+
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+/* Add the rest of the CSS styles here */
+
+/* Additional custom styles */
+
+.card_css {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background: #F9FAFB;
+  height: 35%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  transition: all 0.3s ease 0;
+  margin-top: -6px;
+  overflow-y: auto;
+}
+
+.fees {
+  margin-left: 1rem;
+  font-size: 20px;
+  color: #FF006E;
+  font-weight: 500;
+}
+
+.cardd_css {
+  background: #FFC136;
+  height: 98px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  transition: all 0.3s ease 0;
+  width: 90%;
+  margin-left: 5%;
+
+}
+
+.card_pay {
+  background: #f9f6f0;
+  height: 62px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  transition: all 0.3s ease 0;
+  width: 90%;
+  margin-left: 9px;
+}
+
+.down_css {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_card {
+  background: #ffffff;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  transition: all 0.3s ease 0;
+  width: 90%;
+  margin-top: 1rem;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.set {
+  display: flex;
+  cursor: pointer;
+}
+
+.logocard {
+  background: #FFC136 url('../../assets/img_logo.png') no-repeat center center;
+  height: 48px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  transition: all 0.3s ease 0;
+  width: 48px;
+  margin-top: 5px;
+  margin-left: 16px;
+}
+
+.setdate {
+  margin-bottom: 0px !important;
+  color: #C8CDD6;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+.logocard1 {
+  background: #6C63FF url(/src/assets/protractor.png) no-repeat center center;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  transition: all 0.3s ease 0;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 14px;
+}
+
+
+.logocard2 {
+  background: #6C63FF url(/src/assets/wave.png) no-repeat center center;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  transition: all 0.3s ease 0;
+  width: 40px;
+  margin-top: 9px;
+  margin-left: 14px;
+}
+
+.meditate {
+  font-size: 12px;
+  color: #615E83;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.td_css {
+  display: flex;
+  justify-content: space-between;
+}
+
+.txtupcoming {
+  margin-left: 14px;
+  color: #615E83;
+}
+
+.paycss {
+  color: #615E83;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+.textcss {
+  margin-left: 10px;
+  margin-top: 11px;
+}
+
+
+.uptxt {
+  color: white;
+  font-size: 17px;
+  margin-left: 8px;
+}
+
+.viewtxt {
+  color: #615E83;
+  margin-right: 21px;
+}
+
+.cardscroll {
+  overflow-y: auto;
+}
+
+.callender {
+  margin-top: 20px;
+}
+
+/* FeedBack.module.css */
+
+
+/* FeedBack.module.css */
+.red {
+  background-color: red !important;
+  border-radius: 0%;
+  color: rgb(16, 14, 14);
+}
+
+.green {
+  background-color: green !important;
+  border-radius: 0%;
+  color: rgb(20, 19, 19);
+}
+
+.blue {
+  background-color: blue !important;
+  border-radius: 0%;
+  color: rgb(21, 19, 19);
+}
